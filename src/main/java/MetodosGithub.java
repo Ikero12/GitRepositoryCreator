@@ -9,7 +9,7 @@ public class MetodosGithub {
     GitHub git;
     GHRepository repo;
 
-
+    //Acceso desde un archivo con el método de verificación desde un archivo externo al programa
    public void accesoFile(String Ruta){
        try{
            git = new GitHubBuilder().fromPropertyFile(Ruta).build();
@@ -21,14 +21,7 @@ public class MetodosGithub {
        }
    }
 
-
-
-
-
-
-
-
-
+    //Acceso desde Token de GitHub
     public void accesoToken(String Token){
         try {
 
@@ -40,7 +33,7 @@ public class MetodosGithub {
             System.out.println("Conectado con éxito");
         }
     }
-
+    //Método para crearRepositorio
     public void crearRepositorio(String NombreRepo){
         try {
 

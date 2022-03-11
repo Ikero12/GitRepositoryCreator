@@ -12,7 +12,7 @@ public class Main {
         git.accesoFile("/home/dam1/gitconfig.txt");                 //Conectar a github con archivo de configuración
         //git.accesoToken();   //Conectar a github mediante el Token de acceso
 
-        git.crearRepositorio("Estemen");
+        git.crearRepositorio("Estemen");    //Crea repositorio con el nombre indicado en el parámetro
 
 
 
